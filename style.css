@@ -1,43 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans:wght@400;700;800&display=swap');
+
 * {
-    font-family:'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
+
 /* ------------------
 Navigation Bar
 ----------------------*/
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     background-color: #FFF4E7;
     padding-left: 227px;
-    padding-right:241px ;
+    padding-right: 241px;
     align-items: center;
 }
-nav h1{
+
+nav h1 {
     font-size: 45px;
     font-weight: 600;
 }
-ul{
+
+ul {
     display: flex;
     list-style: none;
     gap: 30px;
 }
-nav ul li{
+
+nav ul li {
     cursor: pointer;
     font-size: 18px;
     font-weight: 500;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 /* -- ------------
         Banner
     -------------- -- */
-.banner{
+.banner {
     background-color: #FFF4E7;
     height: 1200px;
 }
-.banner-heading{
+
+.banner-heading {
     padding: 70px;
     font-weight: 700;
     width: 640px;
@@ -47,21 +55,24 @@ a{
     font-size: 64PX;
     padding-bottom: 30px;
 }
-.banner-p{
+
+.banner-p {
     width: 870px;
     height: 72px;
     text-align: center;
     font-size: 16px;
     padding-bottom: 30px;
 }
-.banner-btn{
+
+.banner-btn {
     margin: auto;
     display: block;
 }
-.explore-btn{
+
+.explore-btn {
     color: white;
     font-size: 20px;
-    font-weight:bold;
+    font-weight: bold;
     width: 170px;
     height: 60px;
     background-color: #FF900E;
@@ -69,7 +80,96 @@ a{
     border-radius: 7px;
     margin-bottom: 30px;
 }
-.banner-img, .banner-p{
+
+.banner-img,
+.banner-p {
     display: block;
     margin: auto;
+}
+
+/* -------------------
+Architects Team Section 
+---------------------*/
+.architects {
+    width: 1320px;
+    height: 710px;
+    margin-left: 300px;
+    margin-right: 241px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 80px;
+}
+
+.architects-team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.quick-features {
+    margin: auto;
+    padding-left: 70px;
+}
+.quick-features h1{
+    color: #727272;
+    font-size: 45px;
+}
+.balck{
+    color: #131313;
+}
+.orange{
+    color: #FF900E;
+}
+/* ----------------------------
+    Features you will love & enjoy
+    ------------------------------ */
+.enjoing-features{
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    gap: 40px;
+    margin-left: 250px;
+    margin-top: 150px;
+}
+.features-headline{
+    color: #131313;
+    font-size: 45px;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.features-headline-details{
+    font-size: 16;
+    color: #727272;
+    padding-left: 5px;
+}
+.features-details{
+    width: 585px;
+    height: 170px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 7px;
+}
+.features-details-headline{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 0 0 30px;
+
+}
+.features-details-p{
+    color: #727272;
+    font-size: 16px;
+    padding: 20px 10px 0 30px;
+}
+.experiences-architect{
+    position: relative;
+    width: 800px;
+    height: 1060px;
+}
+.exparience-btn{
+    position: absolute;
+    left:5px;
+    bottom: 20px;
+    width: 300px;
+    height: 200px;
+
 }

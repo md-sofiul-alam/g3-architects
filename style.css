@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans:wght@400;700;800&display=swap');
+* {
+    font-family:'Work Sans', sans-serif;
+}
+/* ------------------
+Navigation Bar
+----------------------*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF4E7;
+    padding-left: 227px;
+    padding-right:241px ;
+    align-items: center;
+}
+nav h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+nav ul li{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
+/* -- ------------
+        Banner
+    -------------- -- */
+.banner{
+    background-color: #FFF4E7;
+    height: 1200px;
+}
+.banner-heading{
+    padding: 70px;
+    font-weight: 700;
+    width: 640px;
+    height: 160px;
+    margin: auto;
+    text-align: center;
+    font-size: 64PX;
+    padding-bottom: 30px;
+}
+.banner-p{
+    width: 870px;
+    height: 72px;
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+.banner-btn{
+    margin: auto;
+    display: block;
+}
+.explore-btn{
+    color: white;
+    font-size: 20px;
+    font-weight:bold;
+    width: 170px;
+    height: 60px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 30px;
+}
+.banner-img, .banner-p{
+    display: block;
+    margin: auto;
+}
